@@ -31,7 +31,7 @@ it('render title', () => {
     render(<App />, container);
   });
 
-  expect(container.textContent).toBe("Hi, there!");
+  expect(container.textContent).toBe("Hi, Moo!");
 });
 
 it('render all input', () => {
